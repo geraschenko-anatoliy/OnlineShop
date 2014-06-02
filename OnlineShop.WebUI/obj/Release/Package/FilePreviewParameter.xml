@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="logicify-store" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\geras_000\\documents\\visual\ studio\ 2013\\Projects\\OnlineShop\\OnlineShop\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\geras_000\\documents\\visual\ studio\ 2013\\Projects\\OnlineShop\\OnlineShop\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="logicify-store/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\geras_000\\documents\\visual\ studio\ 2013\\Projects\\OnlineShop\\OnlineShop\.WebUI\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="EFDbContext-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=OnlineShopDB;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\OnlineShopDB.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\geras_000\\documents\\visual\ studio\ 2013\\Projects\\OnlineShop\\OnlineShop\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>

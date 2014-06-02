@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+        <div id="header">
+            <div class="title">
+                Hello! This is admin interface for product/category module for online shoppong cart.
+            </div>
+            <div class="navigation">
+               @Html.ActionLink("Go to user interface","Index", "Product")
+            </div>
+        </div>
+        <div id="menu-links">
+            <input type="button" title="View products" value="View products" onclick="location.href='@Url.Action("List", "Product")'" />
+            <input type="button" title="View categories" value="View categories" onclick="location.href='@Url.Action("Index", "Category")'" />
+            <input type="button" title="Add product" value="Add product" onclick="location.href='@Url.Action("Create", "Product")'" />
+            <input type="button" title="Add category" value="Add category" onclick="location.href='@Url.Action("Create", "Category")'" />
+        </div>
+        <div id="admin-content">
+            @RenderBody()
+        </div>
+    @RenderSection("scripts", false)
+</body>
+</html>

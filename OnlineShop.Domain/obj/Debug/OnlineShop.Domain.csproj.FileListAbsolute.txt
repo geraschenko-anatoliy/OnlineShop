@@ -1,0 +1,12 @@
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\bin\Debug\OnlineShop.Domain.dll.config
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\bin\Debug\OnlineShop.Domain.dll
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\bin\Debug\OnlineShop.Domain.pdb
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\bin\Debug\EntityFramework.dll
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\bin\Debug\EntityFramework.xml
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.Migrations.InitialCreate.resources
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.Migrations.InitialCreate1.resources
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.Migrations.InitialCreate2.resources
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.csproj.GenerateResource.Cache
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.dll
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.pdb
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.Domain\obj\Debug\OnlineShop.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,43 @@
+﻿@model OnlineShop.Domain.Entities.Category
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script src="~/Scripts/CategoryEdit.js"></script>
+<h2>You are viewing category: @Model.Name</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <table>
+        <tr>
+            <td>Products of @Model.Name</td>
+            <td></td>
+            <td>Other products</td>
+        </tr>
+        <tr>
+            <td>@Html.ListBox("SelectedProducts")</td>
+            <td>
+                <input id="MoveRight" type="button" value=" >> " />
+                <input id="MoveLeft" type="button" value=" << " />
+            </td>
+            <td>@Html.ListBox("AllProducts")</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="submit" value="Save" onclick="selectAllOptions('SelectedProducts')"/>
+                <input type="button" title="Cancel" value="Cancel" onclick="location.href='@Url.Action("Index", "Category")'" />
+            </td>
+        </tr>
+    </table>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

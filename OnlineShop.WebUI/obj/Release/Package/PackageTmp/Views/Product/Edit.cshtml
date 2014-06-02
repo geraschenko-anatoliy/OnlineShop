@@ -1,0 +1,46 @@
+﻿@model OnlineShop.Domain.Entities.Product
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script src="~/Scripts/ProductsEdit.js"></script>
+
+<h2>You are viewing product: @Model.Name</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+       <table>
+        <tr>
+            <td>Categories of @Model.Name</td>
+            <td></td>
+            <td>Other categories</td>
+        </tr>
+        <tr>
+            <td>
+            @Html.ListBox("SelectedCategories")</td>
+            <td>
+                <input id="MoveRight" type="button" value=" >> " />
+                <input id="MoveLeft" type="button" value=" << " />
+            </td>
+            <td>@Html.ListBox("AllCategories")</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="submit" value="Save" onclick="selectAllOptions('SelectedCategories')"  />
+                <input type="button" title="Cancel" value="Cancel" onclick="location.href='@Url.Action("List", "Product")'" />
+            </td>
+        </tr>
+    </table>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
