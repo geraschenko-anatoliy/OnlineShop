@@ -25,7 +25,6 @@ namespace OnlineShop.Domain.UnitOfWork
                 return productRepository;
             }
         }
-
         public IRepository<Category> CategoryRepository
         {
             get
@@ -35,14 +34,11 @@ namespace OnlineShop.Domain.UnitOfWork
                 return categoryRepository;
             }
         }
-
         public void Save()
         {
             context.SaveChanges();
         }
-
         private bool disposed = false;
-
         protected virtual void Dispose(bool disposing)
         {
             if (!this.disposed)
@@ -54,7 +50,6 @@ namespace OnlineShop.Domain.UnitOfWork
             }
             this.disposed = true;
         }
-
         public void Dispose()
         {
             Dispose(true);

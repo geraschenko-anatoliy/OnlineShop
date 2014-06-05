@@ -1,0 +1,20 @@
+﻿@model IEnumerable<OnlineShop.Domain.Entities.Product>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <table>
+        <tr>
+            <td>
+                @Html.ActionLink(item.Name, "Edit", new { id = item.ProductId })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.ProductId })
+            </td>
+        </tr>
+    </table>
+}

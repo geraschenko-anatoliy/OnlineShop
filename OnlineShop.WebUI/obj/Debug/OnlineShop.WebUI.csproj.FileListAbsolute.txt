@@ -7,6 +7,7 @@ C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.W
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Newtonsoft.Json.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Ninject.dll
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Ninject.Web.Common.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\OnlineShop.Domain.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\PagedList.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\PagedList.Mvc.dll
@@ -20,13 +21,17 @@ C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.W
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.WebPages.Deployment.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.WebPages.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\WebActivator.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\WebGrease.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\OnlineShop.Domain.pdb
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Antlr3.Runtime.pdb
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\EntityFramework.xml
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Newtonsoft.Json.xml
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Ninject.xml
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Ninject.Web.Common.xml
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\PagedList.xml
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\PagedList.Mvc.xml
-C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.Optimization.xml
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Net.Http.Formatting.xml
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.Http.xml
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.Http.WebHost.xml
@@ -38,8 +43,3 @@ C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.W
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\obj\Debug\OnlineShop.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\obj\Debug\OnlineShop.WebUI.dll
 C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\obj\Debug\OnlineShop.WebUI.pdb
-C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\WebActivator.dll
-C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Antlr3.Runtime.pdb
-C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\System.Web.Optimization.xml
-C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Ninject.Web.Common.dll
-C:\Users\geras_000\documents\visual studio 2013\Projects\OnlineShop\OnlineShop.WebUI\bin\Ninject.Web.Common.xml

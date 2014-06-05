@@ -1,0 +1,37 @@
+﻿@model OnlineShop.Domain.Entities.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<table>
+    <tr>
+        <td>
+            <div class="display-label">
+                <b>@Html.DisplayNameFor(model => model.Name)</b>
+            </div>
+        </td>
+        <td>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Name)
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="display-label">
+                <b>@Html.DisplayNameFor(model => model.Price)</b>
+            </div>
+        </td>
+        <td>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.Price)
+            </div>
+        </td>
+    </tr>
+</table>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

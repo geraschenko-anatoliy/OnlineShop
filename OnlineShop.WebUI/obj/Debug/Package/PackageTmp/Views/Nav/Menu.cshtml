@@ -1,0 +1,24 @@
+﻿@model IEnumerable<OnlineShop.Domain.Entities.Category>
+@using OnlineShop.WebUI.HtmlHelpers;
+
+@using (Html.BeginForm("Index", "Product", FormMethod.Get))
+{
+    <p>
+        Search query: @Html.TextBox("searchProduct", "", new { @Value = ViewBag.searchProduct, @style = "width: 100px;" })
+    </p> 
+    <p>
+        Filter by category
+    </p>
+    
+    @Html.GetSelectAllCategoriesLabel("selectedAllCategories", (bool)ViewBag.selectedAllCategories)   
+    
+    foreach (var link in Model)
+    {
+        @Html.GetSelectedCategoriesLabels((ICollection<int>)this.ViewBag.selectedCategories, link)
+        <br />
+    }   
+         
+    <p>
+        <input type="submit" value="Search!" />
+    </p>
+}

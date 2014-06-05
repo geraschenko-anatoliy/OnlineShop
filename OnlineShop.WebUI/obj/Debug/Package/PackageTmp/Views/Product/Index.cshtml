@@ -1,0 +1,59 @@
+﻿@model PagedList.IPagedList<OnlineShop.Domain.Entities.Product>
+
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Product";
+}
+
+<p>By submitting thes info (search query) you agree...</p>
+<p>Searched for: @Session["currentSearchProduct"]</p>
+<p>Found total of @Model.TotalItemCount results</p>
+<table>
+    <tr>
+        <th>
+            @Html.ActionLink("Name", "Index", new 
+       { 
+           sortOrder = ViewBag.NameSortParm, 
+           currentProductFilter = Session["currentSearchProduct"], 
+           selectedCategories =  Session["currentSelectedCategories"], 
+           selectedAllCategories = Session["currentSelectedAllCategories"] 
+       })
+        </th>
+        <th>
+            @Html.ActionLink("Price", "Index", new 
+       { 
+           sortOrder = ViewBag.PriceSortParm, 
+           currentProductFilter = Session["currentSearchProduct"], 
+           selectedCategories = Session["currentSelectedCategories"], 
+           selectedAllCategories = Session["currentSelectedAllCategories"] 
+       })
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(item.Name, "Details", new { id = item.ProductId })
+            </td>
+            <td>
+                @Html.ActionLink(item.Price.ToString(), "Details", new { id = item.ProductId })
+            </td>
+        </tr>
+    }
+</table>
+
+<br />
+
+Showing page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new
+        {
+            page,
+            sortOrder = ViewBag.CurrentSort,
+            currentProductFilter = Session["currentSearchProduct"],
+            selectedCategories = Session["currentSelectedCategories"],
+            selectedAllCategories = Session["currentSelectedAllCategories"]
+        }))

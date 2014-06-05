@@ -89,7 +89,6 @@ namespace OnlineShop.WebUI.Controllers
 
             ViewBag.AllCategories = categories;
         }
-
         private void PopulateAssignedProductCategories(Product product)
         {
             List<SelectListItem> allCategories = new List<SelectListItem>();
@@ -121,7 +120,6 @@ namespace OnlineShop.WebUI.Controllers
             ViewBag.SelectedCategories = selectedCategories;
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, string[] selectedCategories)
@@ -150,6 +148,7 @@ namespace OnlineShop.WebUI.Controllers
             
             return View(productToUpdate);
         }
+
         private void UpdateProductCategories(string[] selectedCategories, Product productToUpdate)
         {
             if (selectedCategories == null)
@@ -187,6 +186,7 @@ namespace OnlineShop.WebUI.Controllers
                 }
             }
         }
+        
         public ActionResult Delete(int id = 0)
         {
             Product product = productRepository.GetById(id);
@@ -268,7 +268,6 @@ namespace OnlineShop.WebUI.Controllers
 
             return View(products.ToPagedList(pageNumber, pageSize));
         }
-
         public ViewResult List()
         {
             return View(productRepository.Get());

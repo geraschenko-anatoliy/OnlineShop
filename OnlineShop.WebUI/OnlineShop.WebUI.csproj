@@ -216,8 +216,10 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <None Include="Properties\PublishProfiles\logicify-store - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\logicify-store - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\EasyStore - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\EasyStore - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\simple-store - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\simple-store - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />

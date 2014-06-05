@@ -11,11 +11,12 @@
 <body>
         <div id="header">
             <div class="title">
-                Hello! This is admin interface for product/category module for online shoppong cart.
+                Hello! This is admin interface for product/category module for online store.
             </div>
             <div class="navigation">
                @Html.ActionLink("Go to user interface","Index", "Product")
             </div>
+            <a href="https://github.com/geraschenko-anatoliy/OnlineShop">Go to code</a>
         </div>
         <div id="menu-links">
             <input type="button" title="View products" value="View products" onclick="location.href='@Url.Action("List", "Product")'" />
